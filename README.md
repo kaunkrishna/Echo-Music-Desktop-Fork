@@ -82,7 +82,7 @@ Ensure Flutter is installed and configured for desktop development.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/iad1tya/Echo-Music-Desktop.git
+   git clone https://github.com/EchoMusicApp/Echo-Music-Desktop.git
    cd Echo-Music-Desktop
    ```
 
