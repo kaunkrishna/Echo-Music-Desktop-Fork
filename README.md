@@ -65,7 +65,7 @@ Echo Music is available as an AppImage, DEB, and RPM package.
 1. Download the appropriate package from the [Releases Page](https://github.com/EchoMusicApp/Echo-Music-Desktop/releases/latest).
 2. **AppImage** — Make it executable and run it:
    ```bash
-   chmod +x EchoMusic-*.AppImage && ./EchoMusic-*.AppImage
+   chmod +x EchoMusic*.AppImage && ./EchoMusic*.AppImage
    ```
 3. **DEB/RPM** — Install via your package manager:
    ```bash
@@ -82,7 +82,7 @@ Ensure Flutter is installed and configured for desktop development.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/iad1tya/Echo-Music-Desktop.git
+   git clone https://github.com/EchoMusicApp/Echo-Music-Desktop.git
    cd Echo-Music-Desktop
    ```
 
