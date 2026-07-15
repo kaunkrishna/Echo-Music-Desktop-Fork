@@ -13,24 +13,9 @@
   <a href="https://github.com/EchoMusicApp/Echo-Music-Desktop#linux" style="text-decoration: none;"><img src="assets/linux-button.png" alt="Download for Linux" width="170"/></a>
 </div>
 
----
-
 ## Overview
 
 Echo Music Desktop brings the premium listening experience to your computer. Built with Flutter, it streams from YouTube Music without advertisements and adds powerful desktop-centric features across Windows, macOS, and Linux.
-
----
-
-## Screenshots
-
-<div align="center">
-  <img src="Screenshots/Desktop-1.png" alt="Desktop Home" width="400"/>
-  <img src="Screenshots/Desktop-2.png" alt="Desktop Player" width="400"/>
-  <img src="Screenshots/Desktop-3.png" alt="Desktop Library" width="400"/>
-  <img src="Screenshots/Desktop-4.png" alt="Desktop Settings" width="400"/>
-</div>
-
----
 
 ## Features
 
@@ -42,7 +27,14 @@ Echo Music Desktop brings the premium listening experience to your computer. Bui
 - **Smart Recommendations** — Personalized suggestions based on your listening history.
 - **Sleep Timer** — Set automatic playback stop after a chosen duration.
 
----
+## Screenshots
+
+<div align="center">
+  <img src="Screenshots/Desktop-1.png" alt="Desktop Home" width="48%"/>
+  <img src="Screenshots/Desktop-2.png" alt="Desktop Player" width="48%"/>
+  <img src="Screenshots/Desktop-3.png" alt="Desktop Library" width="48%"/>
+  <img src="Screenshots/Desktop-4.png" alt="Desktop Settings" width="48%"/>
+</div>
 
 ## Installation
 
@@ -69,7 +61,7 @@ Echo Music Desktop brings the premium listening experience to your computer. Bui
 <details>
 <summary><strong>Linux</strong></summary>
 
-Echo Music is available via the Arch User Repository (AUR), as well as AppImage, DEB, and RPM packages
+Echo Music is available via the Arch User Repository (AUR), as well as AppImage, DEB, and RPM packages.
 
 1. **Arch-based distributions (AUR):**
 
@@ -81,7 +73,7 @@ Echo Music is available via the Arch User Repository (AUR), as well as AppImage,
    paru -S echo-music-desktop-bin
    ```
 
-3. **Other Linux distributions:**
+2. **Other Linux distributions:**
 
    Download the appropriate package file from the [Releases Page](https://github.com/EchoMusicApp/Echo-Music-Desktop/releases/latest), then install it using one of the following methods:
 
@@ -102,12 +94,10 @@ Echo Music is available via the Arch User Repository (AUR), as well as AppImage,
 
 </details>
 
----
-
 ## Build from Source
 
-<details>
-<summary><strong>Flutter Desktop Build Instructions</strong></summary>
+<details open>
+<summary><strong>Build Instructions</strong></summary>
 
 Ensure Flutter is installed and configured for desktop development.
 
@@ -146,33 +136,27 @@ Ensure Flutter is installed and configured for desktop development.
 
 </details>
 
----
-
 ## Community & Support
 
 Join the community for updates, discussions, and help.
 
 <div align="center">
-  <a href="https://discord.gg/EcfV3AxH5c"><img src="assets/discord.png" width="140"/></a>
-  &nbsp;
+  <a href="https://discord.gg/EcfV3AxH5c"><img src="assets/discord.png" width="140"/></a>&nbsp;
   <a href="https://t.me/EchoMusicApp"><img src="assets/telegram.png" width="130"/></a>
 </div>
-
----
 
 ## Support the Project
 
 If Echo Music Desktop has been useful to you, consider supporting its development.
 
 <div align="center">
-  <a href="https://buymeacoffee.com/iad1tya"><img src="assets/bmac.png" width="140"/></a>
-  &nbsp;
-  <a href="https://intradeus.github.io/http-protocol-redirector/?r=upi://pay?pa=iad1tya@upi&pn=Aditya%20Yadav&am=&tn=Thank%20You"><img src="assets/upi.svg" width="100"/></a>
-  &nbsp;
+  <a href="https://buymeacoffee.com/iad1tya"><img src="assets/bmac.png" width="140"/></a>&nbsp;
+  <a href="https://intradeus.github.io/http-protocol-redirector/?r=upi://pay?pa=iad1tya@upi&pn=Aditya%20Yadav&am=&tn=Thank%20You"><img src="assets/upi.svg" width="100"/></a>&nbsp;
   <a href="https://www.patreon.com/cw/iad1tya"><img src="assets/patreon3.png" width="100"/></a>
 </div>
 
-### Cryptocurrency
+<details>
+<summary><strong>Cryptocurrency</strong></summary>
 
 | Network | Address |
 |---------|---------|
@@ -180,7 +164,7 @@ If Echo Music Desktop has been useful to you, consider supporting its developmen
 | **Ethereum** | `0x51bc91022E2dCef9974D5db2A0e22d57B360e700` |
 | **Solana** | `9wjca3EQnEiqzqgy7N5iqS1JGXJiknMQv6zHgL96t94S` |
 
----
+</details>
 
 ## Special Thanks
 
@@ -190,8 +174,6 @@ Echo Music Desktop is built with inspiration and help from these excellent open-
 |---------|-------------|
 | [Gyawun Music](https://github.com/sheikhhaziq/gyawun_music) | Desktop architecture and UI reference |
 
----
-
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EchoMusicApp/Echo-Music-Desktop&type=timeline&logscale&legend=top-left)](https://www.star-history.com/#EchoMusicApp/Echo-Music-Desktop&type=timeline&logscale&legend=top-left)
@@ -199,5 +181,5 @@ Echo Music Desktop is built with inspiration and help from these excellent open-
 ---
 
 <div align="center">
-  Licensed under <a href="LICENSE">GPL-3.0</a>
+  Licensed under <a href="LICENSE">GPL-3.0 License</a>
 </div>
