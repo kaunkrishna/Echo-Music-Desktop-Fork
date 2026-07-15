@@ -41,7 +41,7 @@ Echo Music Desktop brings the premium listening experience to your computer. Bui
 > [!NOTE]
 > **Light Mode** currently has layout rendering bugs. It is recommended to use Dark Mode until the fix is released.
 
-<details open>
+<details>
 <summary><strong>Windows</strong></summary>
 
 1. Download the latest `.exe` installer from the [Releases Page](https://github.com/EchoMusicApp/Echo-Music-Desktop/releases/latest).
@@ -96,7 +96,7 @@ Echo Music is available via the Arch User Repository (AUR), as well as AppImage,
 
 ## Build from Source
 
-<details open>
+<details>
 <summary><strong>Build Instructions</strong></summary>
 
 Ensure Flutter is installed and configured for desktop development.
