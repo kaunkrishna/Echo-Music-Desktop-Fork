@@ -45,7 +45,8 @@ Echo Music Desktop brings the premium listening experience to your computer. Bui
 ---
 
 ## Installation
-**Note** (All Platforms): Light Mode currently has layout rendering bugs. It is highly recommended to switch to Dark Mode, the fix is being worked on.
+> [!NOTE]
+> **Light Mode** currently has layout rendering bugs. It is recommended to use Dark Mode until the fix is released.
 
 ### Windows
 1. Download the latest `.exe` installer from the [Releases Page](https://github.com/EchoMusicApp/Echo-Music-Desktop/releases/latest).
