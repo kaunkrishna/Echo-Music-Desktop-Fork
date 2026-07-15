@@ -45,59 +45,81 @@ Echo Music Desktop brings the premium listening experience to your computer. Bui
 ---
 
 ## Installation
+
 > [!NOTE]
 > **Light Mode** currently has layout rendering bugs. It is recommended to use Dark Mode until the fix is released.
 
-### Windows
+<details open>
+<summary><strong>Windows</strong></summary>
+
 1. Download the latest `.exe` installer from the [Releases Page](https://github.com/EchoMusicApp/Echo-Music-Desktop/releases/latest).
 2. Run the installer and follow the on-screen prompts.
 
-### macOS
+</details>
+
+<details>
+<summary><strong>macOS</strong></summary>
+
 1. Download the `.dmg` file from the [Releases Page](https://github.com/EchoMusicApp/Echo-Music-Desktop/releases/latest).
 2. Open the disk image and drag Echo Music to your Applications folder.
 3. If you see a security warning, go to **System Settings → Privacy & Security** and allow the app.
 
-### Linux
-Echo Music is available via the Arch User Repository (AUR), as well as AppImage, DEB, and RPM packages.
+</details>
+
+<details>
+<summary><strong>Linux</strong></summary>
+
+Echo Music is available via the Arch User Repository (AUR), as well as AppImage, DEB, and RPM packages
 
 1. **Arch-based distributions (AUR):**
-   
+
    Unofficial [package](https://aur.archlinux.org/packages/echo-music-desktop-bin) maintained by [@KAUN](https://github.com/kaunkrishna):
+
    ```bash
    yay -S echo-music-desktop-bin
    # or
    paru -S echo-music-desktop-bin
    ```
-2. **Other Linux distributions:**
-   
+
+3. **Other Linux distributions:**
+
    Download the appropriate package file from the [Releases Page](https://github.com/EchoMusicApp/Echo-Music-Desktop/releases/latest), then install it using one of the following methods:
-   
-    - **AppImage**
-      ```bash
-      chmod +x EchoMusic*.AppImage && ./EchoMusic*.AppImage
-      ```
-    - **DEB**
-      ```bash
-      sudo dpkg -i package.deb
-      ```
-    - **RPM**
-      ```bash
-      sudo rpm -i package.rpm
-      ```
-         
+
+   - **AppImage**
+     ```bash
+     chmod +x EchoMusic*.AppImage && ./EchoMusic*.AppImage
+     ```
+
+   - **DEB**
+     ```bash
+     sudo dpkg -i package.deb
+     ```
+
+   - **RPM**
+     ```bash
+     sudo rpm -i package.rpm
+     ```
+
+</details>
+
 ---
 
 ## Build from Source
 
+<details>
+<summary><strong>Flutter Desktop Build Instructions</strong></summary>
+
 Ensure Flutter is installed and configured for desktop development.
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/EchoMusicApp/Echo-Music-Desktop.git
    cd Echo-Music-Desktop
    ```
 
 2. **Enable desktop support**
+
    ```bash
    flutter config --enable-windows-desktop
    flutter config --enable-macos-desktop
@@ -105,19 +127,24 @@ Ensure Flutter is installed and configured for desktop development.
    ```
 
 3. **Install dependencies**
+
    ```bash
    flutter pub get
    ```
 
 4. **Run the app**
+
    ```bash
    flutter run -d [windows|macos|linux]
    ```
 
 5. **Build for release**
+
    ```bash
    flutter build [windows|macos|linux]
    ```
+
+</details>
 
 ---
 
