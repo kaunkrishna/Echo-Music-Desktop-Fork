@@ -62,7 +62,7 @@ Echo Music is available via the Arch User Repository (AUR), as well as AppImage,
 
 1. **Arch-based distributions (AUR):**
    
-   Unofficial [package](https://aur.archlinux.org/packages/echo-music-desktop-bin) maintained by [@KAUN](https://github.com/kaunkrishna):
+   **Unofficial [Package](https://aur.archlinux.org/packages/echo-music-desktop-bin)** maintained by [@KAUN](https://github.com/kaunkrishna):
    ```bash
    yay -S echo-music-desktop-bin
    # or
