@@ -58,7 +58,7 @@ Echo Music Desktop brings the premium listening experience to your computer. Bui
 3. If you see a security warning, go to **System Settings → Privacy & Security** and allow the app.
 
 ### Linux
-Echo Music is available via the Arch User Repository (AUR), as well as AppImage, DEB, and RPM packages
+Echo Music is available via the Arch User Repository (AUR), as well as AppImage, DEB, and RPM packages.
 
 1. **Arch-based distributions (AUR):**
    
@@ -68,7 +68,7 @@ Echo Music is available via the Arch User Repository (AUR), as well as AppImage,
    # or
    paru -S echo-music-desktop-bin
    ```
-3. **Other Linux distributions:**
+2. **Other Linux distributions:**
    
    Download the appropriate package file from the [Releases Page](https://github.com/EchoMusicApp/Echo-Music-Desktop/releases/latest), then install it using one of the following methods:
    
