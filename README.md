@@ -57,27 +57,32 @@ Echo Music Desktop brings the premium listening experience to your computer. Bui
 3. If you see a security warning, go to **System Settings → Privacy & Security** and allow the app.
 
 ### Linux
-Echo Music is available as an AppImage, DEB, RPM package, and via the Arch User Repository (AUR).
+Echo Music is available via the Arch User Repository (AUR), as well as AppImage, DEB, and RPM packages
 
-1. **Arch-based Distros** - Unofficial [package](https://aur.archlinux.org/packages/echo-music-desktop-bin) maintained by [@KAUN](https://github.com/kaunkrishna):
+1. **Arch-based distributions (AUR):**
+   
+   Unofficial [package](https://aur.archlinux.org/packages/echo-music-desktop-bin) maintained by [@KAUN](https://github.com/kaunkrishna):
    ```bash
    yay -S echo-music-desktop-bin
    # or
    paru -S echo-music-desktop-bin
    ```
-2. **Other Distros** - Follow these steps to install the application:
-    - **Step 2.1:** Download the appropriate package from the [Releases Page](https://github.com/EchoMusicApp/Echo-Music-Desktop/releases/latest).
-    - **Step 2.2:** Run or install the downloaded file using the corresponding command below:
-      - **AppImage** - Make it executable and run it:
-         ```bash
-         chmod +x EchoMusic*.AppImage && ./EchoMusic*.AppImage
-         ```
-      - **DEB/RPM** - Install via your package manager:
-         ```bash
-         sudo dpkg -i package.deb
-         # or
-         sudo rpm -i package.rpm
-         ```
+3. **Other Linux distributions:**
+   
+   Download the appropriate package file from the [Releases Page](https://github.com/EchoMusicApp/Echo-Music-Desktop/releases/latest), then install it using one of the following methods:
+   
+    - **AppImage**
+      ```bash
+      chmod +x EchoMusic*.AppImage && ./EchoMusic*.AppImage
+      ```
+    - **DEB**
+      ```bash
+      sudo dpkg -i package.deb
+      ```
+    - **RPM**
+      ```bash
+      sudo rpm -i package.rpm
+      ```
          
 ---
 
